@@ -25,4 +25,8 @@ class Book < ApplicationRecord
     attribute :author, :string
     attribute :genre, :string
 
+    #relaciones
+    belongs_to :User
+    belongs_to :book
+
 end
