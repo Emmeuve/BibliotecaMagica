@@ -4,5 +4,8 @@ class PagesController < ApplicationController
   end
 
   def library
+
+    @pagy, @articles = pagy(Article.all)
+    
   end
 end
