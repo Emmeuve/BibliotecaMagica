@@ -5,7 +5,8 @@ class PagesController < ApplicationController
 
   def library
 
-    @pagy, @articles = pagy(Article.all)
+    @libro = Book.all
+    @pagy, @book = pagy(Book.all)
     
   end
 end

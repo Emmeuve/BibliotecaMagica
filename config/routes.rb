@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :libros
   get '/home', to: 'pages#home'
 	get '/library', to: 'pages#library'
 
