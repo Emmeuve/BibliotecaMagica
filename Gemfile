@@ -68,3 +68,12 @@ end
 
 # Gem Devise
 gem 'devise'
+
+# Gem Faker
+gem 'faker'
+
+# Gem Ransack
+gem 'ransack'
+
+# Gem Pagy
+gem 'pagy'

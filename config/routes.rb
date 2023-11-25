@@ -2,7 +2,6 @@ Rails.application.routes.draw do
   get '/home', to: 'pages#home'
 	get '/library', to: 'pages#library'
 
-  devise_for :admins
   devise_for :users
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
